@@ -9,6 +9,7 @@ This is an exercise in refactoring. First, run `npx jest` and confirm that the t
 * Rewrite all function expressions as arrow functions
 * Move all function declarations to a file called `library.js` and import them into `index.js`
 
-Finally, add a new feature:
+Finally, add two new features:
 
-Create a web page that displays the results of the problem. Deploy it.
+* Replace the hard-coded IDs in the object with ones from the npm package [`uuid`](https://www.npmjs.com/package/uuid).
+* Create a web page that displays the results of the problem. Deploy it.
