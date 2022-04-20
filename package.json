@@ -1,0 +1,23 @@
+{
+  "type": "module",
+  "name": "modern-javascript-refactoring",
+  "version": "1.0.0",
+  "description": "This is an exercise in refactoring. Your goal is improve the quality of the code while keeping the behavior the same.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules ./node_modules/.bin/jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonalake/modern-javascript-refactoring.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonalake/modern-javascript-refactoring/issues"
+  },
+  "homepage": "https://github.com/jonalake/modern-javascript-refactoring#readme",
+  "dependencies": {
+    "jest": "^27.5.1"
+  }
+}
